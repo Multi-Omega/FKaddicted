@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    #urlList {
+      margin-top: 10px;
+    }
+    .url-item {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h3>添加要阻止的网址</h3>
+  <input type="text" id="urlInput" placeholder="输入要阻止的网址">
+  <button id="addUrl">添加</button>
+  
+  <div id="urlList"></div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 

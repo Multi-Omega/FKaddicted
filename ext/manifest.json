@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "URL Blocker",
+  "version": "1.0",
+  "description": "阻止访问不希望访问的网站",
+  "permissions": [
+    "storage",
+    "tabs",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+} 
